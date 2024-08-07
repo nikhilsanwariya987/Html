@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: orange;
+
+}
+.content{
+   height: 600px;
+   width: 700px;
+   border:  1px solid black;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 10px;
+   margin-top: 30px;
+   margin-left: 10px;
+   background-color: black;
+}
+.content .one{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-top: 10px;
+    color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwiVqpNd0zv349lznWpZI0-KKoEyp-sFiA_g&s");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.content .two{
+    height: 190px;
+    width: 200px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    padding-top: 40px;
+    margin-top: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAhvc-YjdwsimlEYdOknxcvbgNOVSHWjkWQ&s");
+    background-size: cover;
+}
+.content .three{
+    height: 230px;
+    width: 200px;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtbiwGu-luk3449VXHVLC6ja1WTujofLJvQ&s");
+    background-size: cover;
+}
+.content .four{
+    height: 230px;
+    width: 200px;
+    border: 1px solid white;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUjuZXu2F86sca2cUjX-1LMcw9ABHh3f22g&s");
+    background-size: cover;
+}
+.content .five{
+    height: 230px;
+    width: 200px;
+    border: 1px solid white;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhurX-nET7NFtcr901qYXpxxHJblZ31szFA&s");
+    background-size: cover
+}
+.content .six{
+    height: 230px;
+    width: 200px;
+    border: 1px solid white;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnF3eyujUOGbF-Y-RVcEP_kNu3VnLxtrWSPQ&s");
+    background-size: cover;
+}
+  h1{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+  }
